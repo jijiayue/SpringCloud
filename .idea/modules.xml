@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka_server/eureka_server.iml" filepath="$PROJECT_DIR$/eureka_server/eureka_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service0/service0.iml" filepath="$PROJECT_DIR$/service0/service0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service2/service2.iml" filepath="$PROJECT_DIR$/service2/service2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service2/service2.iml" filepath="$PROJECT_DIR$/service2/service2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_cloud.iml" filepath="$PROJECT_DIR$/spring_cloud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring_cloud_test/spring_cloud_test.iml" filepath="$PROJECT_DIR$/spring_cloud_test/spring_cloud_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul_server/zuul_server.iml" filepath="$PROJECT_DIR$/zuul_server/zuul_server.iml" />
     </modules>
   </component>
 </project>

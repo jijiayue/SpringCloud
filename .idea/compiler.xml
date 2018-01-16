@@ -6,12 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring_cloud_test" />
+        <module name="eureka_server" />
+        <module name="service0" />
+        <module name="service2" />
+        <module name="zuul_server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="eureka_server" target="1.8" />
+      <module name="service0" target="1.8" />
+      <module name="service2" target="1.8" />
       <module name="spring_cloud" target="1.8" />
-      <module name="spring_cloud_test" target="1.8" />
+      <module name="zuul_server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
