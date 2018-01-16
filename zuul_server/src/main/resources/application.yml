@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8081/eureka/
+      defaultZone: http://localhost:8087/eureka/
 spring:
   application:
     name: gateway
@@ -10,4 +10,4 @@ server:
 zuul:
   routes:
     service: /service0/**
-    service2: /service1/**
+    service2: /service2/**
