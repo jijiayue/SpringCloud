@@ -1,4 +1,4 @@
-package jjyy.controller;
+package jjyy;
 
 import jjyy.remote.HelloRemote;
 import org.springframework.beans.factory.annotation.Autowired;
