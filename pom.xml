@@ -13,8 +13,6 @@
         <module>service0</module>
         <module>zuul_server</module>
         <module>service2</module>
-        <module>config_server</module>
-        <module>config_clent</module>
         <module>kds</module>
     </modules>
 
@@ -95,6 +93,16 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <!-- 热部署 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 </project>

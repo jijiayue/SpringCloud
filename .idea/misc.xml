@@ -9,8 +9,11 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/config_clent/pom.xml" />
         <option value="$PROJECT_DIR$/config_client/pom.xml" />
+        <option value="$PROJECT_DIR$/config_server/pom.xml" />
         <option value="$PROJECT_DIR$/eurekaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/springCloud_config_server/pom.xml" />
         <option value="$PROJECT_DIR$/spring_cloud_test/pom.xml" />
       </set>
     </option>
